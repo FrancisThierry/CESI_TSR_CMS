@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(226, 235, 244);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+    color: grey
+}
+
+.enorange {
+    color: orange;
+}

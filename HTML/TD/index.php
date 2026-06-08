@@ -1,4 +1,5 @@
 <?php require_once("./content/data.php"); ?>
+<?php require_once("./content/functions/stringutility.php"); ?>
 
 <?php
 
@@ -27,7 +28,7 @@ echo htmlspecialchars( "le parametre flower est $flower");
         </nav>
         <h1><?php echo $blog["title"]; ?></h1>
         <p class="enorange"><?= $blog["firstparagraph"]; ?></p>
-        <p><?= $blog["secondparagraph"]; ?></p>
+        <p><?= gras($blog["secondparagraph"]); ?></p>
 
         <a href=<?= $blog["link"]; ?> target="_blank">En savoir plus</a>
 

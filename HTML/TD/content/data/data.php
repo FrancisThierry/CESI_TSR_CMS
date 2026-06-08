@@ -11,10 +11,10 @@ Les feuilles sont opposées, duveteuses, vert grisâtre, de forme ovale entière
 
 $coquelicot = array(
     "title" => "Le coquelicot en détails",
-    "firstparagraph" => "",
-    "secondparagraph" => "",
-    "image" => "./assets/images/500px-Origanum_majorana.jpg",
-    "link" => "https://fr.wikipedia.org/wiki/Origanum_majorana"
+    "firstparagraph" => "Le Coquelicot (Papaver rhoeas) est une espèce de plantes à fleurs dicotylédones, de la famille des Papaveracées. C'est une plante herbacée originaire du bassin méditerranéen (Eurasie et Afrique du Nord).",
+    "secondparagraph" => "C'est une plante annuelle, très abondante dans les terrains fraîchement remués à partir du printemps, qui se distingue par la couleur rouge de ses fleurs et par sa capacité à former de grands tapis colorés visibles de loin.",
+    "image" => "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Fleur_de_Coquelicot_%28Papaver_rhoeas%29.jpg/960px-Fleur_de_Coquelicot_%28Papaver_rhoeas%29.jpg",
+    "link" => "https://fr.wikipedia.org/wiki/Coquelicot"
 );
 
 $petunia = array(

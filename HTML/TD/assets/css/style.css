@@ -9,3 +9,33 @@ h1 {
 .enorange {
     color: orange;
 }
+
+/* Style du conteneur principal */
+nav {
+    background-color: #333; /* Couleur de fond du menu */
+    padding: 10px 20px;
+}
+
+/* Transformation de la liste verticale en ligne horizontale */
+nav ul {
+    list-style-type: none; /* Supprime les puces de la liste */
+    margin: 0;
+    padding: 0;
+    display: flex;         /* Aligne les éléments horizontalement */
+    gap: 20px;             /* Espace entre chaque bouton */
+}
+
+/* Style des liens (les boutons) */
+nav ul li a {
+    color: white;          /* Couleur du texte */
+    text-decoration: none; /* Supprime le soulignement des liens */
+    padding: 8px 16px;
+    display: block;        /* Permet au padding d'agrandir la zone cliquable */
+    transition: background-color 0.3s ease; /* Animation fluide au survol */
+    border-radius: 4px;    /* Légers arrondis pour le style */
+}
+
+/* Effet au survol de la souris */
+nav ul li a:hover {
+    background-color: #555; /* Le fond devient plus clair au survol */
+}
